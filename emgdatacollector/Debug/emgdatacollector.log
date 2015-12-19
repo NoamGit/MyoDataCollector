@@ -1,18 +1,16 @@
-﻿Build started 9/6/2015 09:05:40.
-     1>Project "c:\Users\Noam\documents\visual studio 2013\Projects\emgdatacollector\emgdatacollector\emgdatacollector.vcxproj" on node 2 (Build target(s)).
+﻿Build started 12/12/2015 15:10:29.
+     1>Project "C:\Users\Noam\documents\visual studio 2013\Projects\emgdatacollector\emgdatacollector\emgdatacollector.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Noam\Documents\Myo\myo-sdk-win-0.9.0\myo-sdk-win-0.9.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GUI.cpp
          GUI.cpp
          _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Resource.res" Resource.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\noam\documents\visual studio 2013\Projects\emgdatacollector\Debug\emgdatacollector.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Noam\Documents\Myo\myo-sdk-win-0.9.0\myo-sdk-win-0.9.0\lib" myo32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"c:\users\noam\documents\visual studio 2013\Projects\emgdatacollector\Debug\emgdatacollector.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\noam\documents\visual studio 2013\Projects\emgdatacollector\Debug\emgdatacollector.lib" /MACHINE:X86 Debug\Resource.res
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Noam\documents\visual studio 2013\Projects\emgdatacollector\Debug\emgdatacollector.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Noam\Documents\Myo\myo-sdk-win-0.9.0\myo-sdk-win-0.9.0\lib" myo32.lib myo64.lib Uafxcwd.lib Libcmtd.lib /NODEFAULTLIB:Uafxcwd.lib /NODEFAULTLIB:Libcmtd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Noam\documents\visual studio 2013\Projects\emgdatacollector\Debug\emgdatacollector.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Noam\documents\visual studio 2013\Projects\emgdatacollector\Debug\emgdatacollector.lib" /MACHINE:X86 Debug\Resource.res
          Debug\GUI.obj
      1>GUI.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
-         emgdatacollector.vcxproj -> c:\users\noam\documents\visual studio 2013\Projects\emgdatacollector\Debug\emgdatacollector.exe
-     1>Done Building Project "c:\Users\Noam\documents\visual studio 2013\Projects\emgdatacollector\emgdatacollector\emgdatacollector.vcxproj" (Build target(s)).
+         emgdatacollector.vcxproj -> C:\Users\Noam\documents\visual studio 2013\Projects\emgdatacollector\Debug\emgdatacollector.exe
+     1>Done Building Project "C:\Users\Noam\documents\visual studio 2013\Projects\emgdatacollector\emgdatacollector\emgdatacollector.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:19.35
+Time Elapsed 00:00:04.21
